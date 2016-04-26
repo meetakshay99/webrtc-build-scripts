@@ -235,11 +235,11 @@ function sync() {
     cd "$WEBRTC"
     choose_code_signing
 
-    if [ "$WEBRTC_TARGET" == "libWebRTC_objc" ] ; then
-        twiddle_objc_target
-      else
-        untwiddle_objc_target
-    fi
+#    if [ "$WEBRTC_TARGET" == "libWebRTC_objc" ] ; then
+#        twiddle_objc_target
+#      else
+#        untwiddle_objc_target
+#    fi
 
     if [ -z $1 ]
     then
